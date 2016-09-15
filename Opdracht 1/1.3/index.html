@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="#" alt="logo" class="logo" />
+        <input type="search" placeholder="Wat wil je lezen?">
+        <nav>
+            <ul>
+                <li><a href="#">bladeren</a></li>
+                <li><a href="#">comments</a></li>
+                <li><a href="#">account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+
+                    <legend>Contactgegevens</legend>
+
+                    <label for="name">Naam *</label>
+                    <input type="text" id="name" required>
+                    <br/>
+
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" required>
+                    <br/>
+
+                    <label for="straat">Straatnaam</label>
+                    <input type="text" id="straat" placeholder="Zonder huis nummer">
+                    <br/>
+
+                    <label for="nummer">Huis nummer</label>
+                    <input type="number" id="nummer">
+                    <br/>
+
+                    <label for="postcode">Postcode</label>
+                    <input type="text" id="postcode" pattern="[0-9]{4}" placeholder="4 nummers" />
+                    <input type="text" pattern="[A-Z]{2}" placeholder="2 letters" />
+                    <br/>
+
+                    <label for="land">Land</label>
+                    <input type="text" id="land">
+                    <br/>
+
+                    <label for="telefoon">Telefoon</label>
+                    <input type="tel" id="telefoon">
+                    <br/>
+
+                </fieldset>
+
+                <input type="submit" value="Submit" />
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
