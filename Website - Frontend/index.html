@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.0.js"></script>
+    <title>Overzichtpagina</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/Logo.png" alt="logo" class="logo" /></a>
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input class="search" type="search" placeholder="Wat wil je lezen?">
+        <nav>
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Bladeren <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Avontuur</a>
+                            <a href="#">Non-fictie</a>
+                            <a href="#">Jeugd</a>
+                            <a href="#">Drama</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-adjust" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="registreren.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home">
+        <h1 class="h1-vl">Verder lezen</h1>
+        <section class="article-flex-container">
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/tanka.jpg" alt="tanka"></div>
+                        <h2>Tanka</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>14 Januari 2012</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">14 Comments</a>
+                        </div>
+                        <p>De bus stopt, ik zoek Queneau’s Stijloefeningen. Een vrouw vraagt de weg. Ze vlucht, ‘t boek is onvindbaar. Ik koop schoeisel voor m’n zoon.</p>
+                        <footer>
+                            <button class="blue-btn">Verder lezen</button>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/surprise.jpg" alt="man fluistert een geheim in de vrouws oor"></div>
+                        <h2>Verrassing</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>6 Oktober 2011</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">23 Comments</a>
+                        </div>
+                        <p>‘Nee, dat was het vreemde. Ze werd afgeleid door een Renault 21 die zo’n honderd meter verder achteruit van ons aan het wegrijden was.</p>
+                        <footer>
+                            <button class="blue-btn">Verder lezen</button>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="article-flex-container">
+            <div class="titel-sectie flex-end">
+                <h1 class="h1-v">Verhalen</h1>
+                <div class="sorteren">
+                    <label for="filter-drp"><i class="fa fa-filter" aria-hidden="true"></i></label>
+                    <select name="filter-drp" id="filter-drp">
+                        <option value="alphabetic">range slider</option>
+                        <option value="most-read">lees duur</option>
+                    </select>
+                    <select name="sort" id="sort">
+                        <option value="alphabetic">A-Z</option>
+                        <option value="most-read">Meest gelezen</option>
+                        <option value="oldest">Oudste</option>
+                        <option value="newest">Nieuwste</option>
+                        <option value="likes">Meeste likes</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <div class="underline">
+            <h3>Avontuur</h3>
+        </div>
+        <section class="article-flex-container">
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/beroemd.jpg" alt="foto met een ster op de grond in hollywood"></div>
+                        <h2>Beroemd</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>17 Mei 2012</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">24 Comments</a>
+                        </div>
+                        <p>Vlak voordat ik de bus uitstap bedank ik de buschauffeur via de spiegel voor zijn diensten. Hij zwaait joviaal terug. ‘Mijn vrouw is een groot fan van u’, roept hij. ‘Doe haar de groeten’, zeg ik en stap uit.</p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        5min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/kolen.jpg" alt="foto van kolen"></div>
+                        <h2>Freudiaans</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>5 July 2011</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">43 Comments</a>
+                        </div>
+                        <p>Ik stap uit de lul. Mijn aarsrivaal ligt te slapen in zijn kinderwagen. Wat een kutweer. De mensen zijn met zichzelf bezig, wat er hoogstwaarschijnlijk op neerkomt dat ze aan seks.</p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        17min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/tanka.jpg" alt="tanka"></div>
+                        <h2>Steenkolenfrans</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>1 Juni 2011</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">2 Comments</a>
+                        </div>
+                        <p>Le premier fevrièr 2011. Presque midi. Le bus s’arrête. Ligne 21. Place de Gare Centrale. Je marche au derrière d’un poussette. Mon fils dort, Mon fils dort, Mon fils dort. Mon fils dort. Mon fils dort.</p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        6 min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/tanka.jpg" alt="tanka"></div>
+                        <h2>Het gebrek</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>1 Augustus 2012</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">13 Comments</a>
+                        </div>
+                        <p>De bus uit. Mijn zoon tukt in zijn kinderkoets. Eindelijk. Ik loop over het plein. Een gierende wind en een striemende miezerregen geselen mijn gezicht. </p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        8min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/tanka.jpg" alt="tanka"></div>
+                        <h2>Vergezocht</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>24 April 2013</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">15 Comments</a>
+                        </div>
+                        <p>Het was in de omstreken van een gure februaridag rond het middaguur. Mijn zoon lag in zijn kinderwagen te slapen als een oude jamaicaan die teveel Rum achter.</p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        11min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/tanka.jpg" alt="tanka"></div>
+                        <h2>Zoon</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>15 Maart 2012</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">2 Comments</a>
+                        </div>
+                        <p>Zzzzzzz. Hjumhjumhjum. Zzzzzzz. Grumbl. Huh? Whèèèh. Die! Die! Papa? Hjmwhumwhum. Boe?Boe? Hjmwhumwhum. Whèèèh!!! Whèèèh!!! Die!***</p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        7min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <div class="underline">
+            <h3>Non-fictie</h3>
+        </div>
+        <section class="article-flex-container">
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/tanka.jpg" alt="tanka"></div>
+                        <h2>Beroemd</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>17 Mei 2012</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">24 Comments</a>
+                        </div>
+                        <p>Vlak voordat ik de bus uitstap bedank ik de buschauffeur via de spiegel voor zijn diensten. Hij zwaait joviaal terug. ‘Mijn vrouw is een groot fan van u’, roept hij. ‘Doe haar de groeten’, zeg ik en stap uit.</p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        5min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="article-fix">
+                <!-- jelle overbeek article-fix tip -->
+                <article>
+                    <div class="content">
+                        <div class="plaatje"><img src="images/tanka.jpg" alt="tanka"></div>
+                        <h2>Freudiaans</h2>
+                        <div class="meta-data">
+                            <i class="fa fa-user" aria-hidden="true"></i><a href="#" rel="Molowich">Molowich</a>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <date>5 July 2011</date><i class="fa fa-comment" aria-hidden="true"></i><a href="#">43 Comments</a>
+                        </div>
+                        <p>Ik stap uit de lul. Mijn aarsrivaal ligt te slapen in zijn kinderwagen. Wat een kutweer. De mensen zijn met zichzelf bezig, wat er hoogstwaarschijnlijk op neerkomt dat ze aan seks met hun. </p>
+                        <footer>
+                            <button class="red-btn">Begin lezen</button>
+                            <button class="blue-btn item">+ Leeslijst</button>
+                            <span class="tijd">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        17min
+                    </span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!--<a href="#" class="scrollup"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    <script src="js/ScrollToTop.js"></script>-->
+</body>
+
+</html>
